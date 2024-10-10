@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: BuildingMaterialStore
+  datasource:
+    url: jdbc:mysql://localhost/building_material_store
+    username: root
+    password: password
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+    open-in-view: false
