@@ -1,7 +1,7 @@
 package com.example.buildingmaterialstore.repository;
 
 import com.example.buildingmaterialstore.entity.Product;
-import com.example.buildingmaterialstore.enums.ProductStatus;
+import com.example.buildingmaterialstore.model.enums.ProductStatus;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

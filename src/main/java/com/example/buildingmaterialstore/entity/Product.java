@@ -1,6 +1,6 @@
 package com.example.buildingmaterialstore.entity;
 
-import com.example.buildingmaterialstore.enums.ProductStatus;
+import com.example.buildingmaterialstore.model.enums.ProductStatus;
 import jakarta.persistence.*;
 import jakarta.validation.constraints.NotNull;
 import lombok.Data;

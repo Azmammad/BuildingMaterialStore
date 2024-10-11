@@ -1,4 +1,4 @@
-package com.example.buildingmaterialstore.model.request;
+package com.example.buildingmaterialstore.model.dto.request;
 
 
 import lombok.Data;

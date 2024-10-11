@@ -1,4 +1,4 @@
-package com.example.buildingmaterialstore.model.response;
+package com.example.buildingmaterialstore.model.dto.response;
 
 import lombok.Data;
 

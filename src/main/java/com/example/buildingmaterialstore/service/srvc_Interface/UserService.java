@@ -1,7 +1,7 @@
 package com.example.buildingmaterialstore.service.srvc_Interface;
 
-import com.example.buildingmaterialstore.model.request.UserRequestDto;
-import com.example.buildingmaterialstore.model.response.UserResponseDto;
+import com.example.buildingmaterialstore.model.dto.request.UserRequestDto;
+import com.example.buildingmaterialstore.model.dto.response.UserResponseDto;
 
 import java.util.List;
 

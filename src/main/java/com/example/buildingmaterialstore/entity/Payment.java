@@ -1,6 +1,6 @@
 package com.example.buildingmaterialstore.entity;
 
-import com.example.buildingmaterialstore.enums.PaymentStatus;
+import com.example.buildingmaterialstore.model.enums.PaymentStatus;
 import jakarta.persistence.*;
 import lombok.Data;
 

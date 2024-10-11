@@ -1,5 +1,6 @@
 package com.example.buildingmaterialstore.entity;
 
+import com.example.buildingmaterialstore.model.enums.UserStatus;
 import jakarta.persistence.*;
 import jakarta.validation.constraints.Email;
 import jakarta.validation.constraints.NotNull;
@@ -46,4 +47,8 @@ public class User {
             inverseJoinColumns = @JoinColumn(name = "role_id")
     )
     private Set<Role> roles = new HashSet<>();
+
+    @Enumerated(EnumType.STRING)
+    @NotNull
+    private UserStatus status;
 }

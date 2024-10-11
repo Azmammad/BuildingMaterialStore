@@ -1,7 +1,7 @@
 package com.example.buildingmaterialstore.service.srvc_Interface;
 
-import com.example.buildingmaterialstore.model.request.CartRequestDto;
-import com.example.buildingmaterialstore.model.response.CartResponseDto;
+import com.example.buildingmaterialstore.model.dto.request.CartRequestDto;
+import com.example.buildingmaterialstore.model.dto.response.CartResponseDto;
 
 public interface CartService {
     CartResponseDto addToCart(CartRequestDto cartRequestDto);

@@ -1,9 +1,8 @@
 package com.example.buildingmaterialstore.service.srvc_Interface;
 
-import com.example.buildingmaterialstore.model.request.CategoryRequestDto;
-import com.example.buildingmaterialstore.model.response.CategoryResponseDto;
+import com.example.buildingmaterialstore.model.dto.request.CategoryRequestDto;
+import com.example.buildingmaterialstore.model.dto.response.CategoryResponseDto;
 
-import java.util.LinkedList;
 import java.util.List;
 
 public interface CategoryService {

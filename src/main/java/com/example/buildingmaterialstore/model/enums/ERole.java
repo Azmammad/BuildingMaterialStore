@@ -1,4 +1,4 @@
-package com.example.buildingmaterialstore.enums;
+package com.example.buildingmaterialstore.model.enums;
 
 public enum ERole {
     ROLE_ADMIN,

@@ -1,8 +1,8 @@
 package com.example.buildingmaterialstore.mapper;
 
 import com.example.buildingmaterialstore.entity.Address;
-import com.example.buildingmaterialstore.model.request.AddressRequestDto;
-import com.example.buildingmaterialstore.model.response.AddressResponseDto;
+import com.example.buildingmaterialstore.model.dto.request.AddressRequestDto;
+import com.example.buildingmaterialstore.model.dto.response.AddressResponseDto;
 import org.mapstruct.Mapper;
 
 @Mapper(componentModel = "spring")

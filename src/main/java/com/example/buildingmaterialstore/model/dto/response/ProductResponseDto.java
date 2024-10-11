@@ -1,6 +1,6 @@
-package com.example.buildingmaterialstore.model.response;
+package com.example.buildingmaterialstore.model.dto.response;
 
-import com.example.buildingmaterialstore.enums.ProductStatus;
+import com.example.buildingmaterialstore.model.enums.ProductStatus;
 import lombok.Data;
 
 @Data
