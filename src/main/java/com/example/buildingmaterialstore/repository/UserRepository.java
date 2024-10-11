@@ -2,7 +2,6 @@ package com.example.buildingmaterialstore.repository;
 
 import com.example.buildingmaterialstore.entity.User;
 import com.example.buildingmaterialstore.model.enums.UserStatus;
-import com.example.buildingmaterialstore.service.srvc_Interface.UserService;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

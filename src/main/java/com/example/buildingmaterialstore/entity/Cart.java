@@ -22,4 +22,10 @@ public class Cart {
 
     private Double totalPrice;
 
+    public Double calculateTotalPrice(){
+        return cartItems.stream()
+                .mapToDouble(cartItem -> cartItem.getProduct().getPrice()*cartItem.getQuantity())
+                .sum();
+    }
+
 }

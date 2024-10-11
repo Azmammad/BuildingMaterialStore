@@ -26,7 +26,7 @@ public class Order {
     private Double totalAmount;
 
     @ManyToOne
-    private Address deliveryAdress;
+    private Address deliveryAddress;
 
     @Enumerated(EnumType.STRING)
     private OrderStatus status = OrderStatus.PENDING;

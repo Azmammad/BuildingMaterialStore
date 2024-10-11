@@ -1,4 +1,4 @@
-package com.example.buildingmaterialstore.service.srvc_Interface;
+package com.example.buildingmaterialstore.service.srvc_Interfaces;
 
 import com.example.buildingmaterialstore.model.dto.request.PaymentRequestDto;
 import com.example.buildingmaterialstore.model.dto.response.PaymentResponseDto;
