@@ -28,4 +28,8 @@ public class Product {
 
     @Enumerated(EnumType.STRING)
     private ProductStatus status = ProductStatus.ACTIVE;
+
+    @ManyToOne
+    @JoinColumn(name = "category_id")
+    private Category category;
 }
