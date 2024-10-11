@@ -7,8 +7,6 @@ import java.util.List;
 
 @Data
 public class OrderRequestDto {
-    @NotNull
-    private Long addressId;
-    @NotNull
-    private List<OrderItemDto> items;
+    private Long cartId;
+    private Long deliveryAddressId;
 }
