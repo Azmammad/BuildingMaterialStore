@@ -22,13 +22,8 @@ public class Payment {
     @Enumerated(EnumType.STRING)
     private PaymentMethod method;
 
-    private String transactionId;
-
-
-
     public enum PaymentMethod {
         CARD,
         CASH
     }
 }
-
