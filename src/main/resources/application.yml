@@ -13,3 +13,6 @@ spring:
     open-in-view: false
 server:
   port: 8080
+jwt:
+  secret: mySecretKey123456;
+  expiration: 86400000

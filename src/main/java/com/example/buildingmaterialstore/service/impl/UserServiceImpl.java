@@ -26,7 +26,7 @@ public class UserServiceImpl implements UserService {
     private final PasswordEncoder passwordEncoder;
 
 
-    @Override
+   /* @Override
     public UserResponseDto registerUser(UserRequestDto userRequestDto) {
         log.info("-> starting user registration");
 
@@ -38,7 +38,7 @@ public class UserServiceImpl implements UserService {
 
         log.info("-> user registered with id {}", user.getId());
         return userMapper.toResponse(user);
-    }
+    }*/
 
     @Override
     public UserResponseDto getUserById(Long id) {
